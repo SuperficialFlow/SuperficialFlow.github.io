@@ -169,10 +169,10 @@ section {
     gap: 29rem;
     height: 750px;    
     width: auto;
-    background-color: grey;
     margin-top: 55px;
     margin-left: 0;
     margin-right: 0;
+    background-color: grey;
 }
 
 .rounded-image {
