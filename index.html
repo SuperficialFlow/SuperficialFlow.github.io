@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jan Rea</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaquiries.css" />
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">AboutME.</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                </ul>                
+            </div>
+        </nav>
+        <nav id="mobile-nav">
+            <div class="logo">AboutME.</div>
+            <div class="mobile-menu">
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
+                    <li><a href="#skills" onclick="toggleMenu()">SKILLS</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
+                    <li><a href="#achievements" onclick="toggleMenu()">ACHIEVEMENTS</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">            
+            <div class="section-text">
+                <p class="section-text-1">HI, WELCOME</p>
+                <h1 class="section-title">I'm Jan Rea</h1>
+                <p class="section-text-2">B.S. Student of Information Technology that is currently <br> 
+                learning at Mapua Malayan Colleges of Laguna.</p>
+                <p class="section-text-3">ABOUT MYSELF, </p>
+                <p class="section-text-4">I developed an interest in BS-IT due to my passion and exposure <br> 
+                to technology and how it integrates into my everyday life. <br> 
+                Other passions I enjoy engaging with include cooking, <br> 
+                gaming, listening to music, and problem-solving.</p>                                 
+            </div>
+            <div class="section-pic-container">
+                <img src="./assets/prof-pic.PNG" alt="Prof Pic" class="rounded-image"/>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
