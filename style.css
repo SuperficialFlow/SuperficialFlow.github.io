@@ -246,11 +246,6 @@ section {
     font-size: 4rem;
 }
 
-.contact-text-1 {
-    align-self: center;
-    text-align: center;
-}
-
 .icon-git,
 .icon-email {
     animation: float 2000ms ease-in-out infinite;
