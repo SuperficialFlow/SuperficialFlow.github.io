@@ -289,10 +289,17 @@ section {
 /*Skills Section*/
 
 #skills {
+    width: auto;    
+    height: 500px;
+    margin-top: 55px;
+    margin-left: 0;
+    margin-right: 0;
     text-align: center;
+    background-color: grey;
 }
 
 .skill-title {
+    margin-left: 16rem;
     text-align: left;
     font-size: 5rem;
     padding: 20px;
@@ -300,12 +307,18 @@ section {
 
 .skill-set-container {
     display: flex;
-    justify-content: space-around; 
+    justify-content: center; 
 }
   
 .skill-container {
-    width: 30%; 
     margin: 10px;
-    padding: 15px;    
+    padding: 20px;
+    width: 390px;
+    background: white;
+    border-radius: 2rem;
+    border: black 0.1rem solid;
+    border-color: black;
+    text-align: center;
+
 }
   
