@@ -226,3 +226,67 @@ section {
     text-align: left;
     margin-bottom: 1rem;
 }
+
+/*Contact Section*/
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29rem;
+    height: 500px;    
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.contact-text {
+    align-self: center;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.contact-text-1 {
+    align-self: center;
+    text-align: center;
+}
+
+.icon-git,
+.icon-email {
+    animation: float 2000ms ease-in-out infinite;
+    height: 110px;
+    width: 110px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.git-button, 
+.email-button {
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: all 300ms ease;
+    padding: 2rem;
+    width: 18rem;
+    border-radius: 2rem;
+    color: white; 
+    border: black 0.1rem solid;
+    background-color: grey;
+    margin-left: 10px;
+}
+
+.git-button:hover, 
+.email-button:hover {
+    cursor: pointer;
+    color: grey;
+    background-color: white;
+}
