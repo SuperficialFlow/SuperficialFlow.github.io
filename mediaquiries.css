@@ -1,8 +1,90 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
+
     #desktop-nav {
         display: none;
     }
+
     #mobile-nav{
        display: flex; 
+    }
+
+    body {
+        font-size: 14px; 
+    }
+
+    nav {
+        margin-top: 1rem;
+        height: auto;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .nav-links {
+        gap: 1rem;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .menu-links li {
+        text-align: center;
+    }
+
+    .section {
+        margin: 0 1rem;
+    }
+
+    #profile {
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+    }
+
+    .section-pic-container {
+        margin: 0;
+    }
+
+    .section-text {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .section-title {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .rounded-image {
+        width: 300px;
+        height: 420px;
+        margin-left: 29.2rem;
+        margin-bottom: 6rem;
+    }
+
+    .section-text-1 {
+        text-align: center;
+    }
+    .contact-button {
+        padding: 15px 40px;
+    }
+
+    .skill-title, .project-title, .achievement-title, .contact-title {
+        margin: 20px;
+        font-size: 3rem;
+    }
+
+    .skill-container, .project-container, .achievement-container {
+        width: 100%;
+    }
+
+    .achievement-set-container {
+        margin-right: 17rem;
+    }
+
+    .git-button, .email-button {
+        width: 300px;
+        height: 90px;
     }
 }
