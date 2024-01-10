@@ -27,6 +27,7 @@ a,
 }
 
 /*Navigation*/
+
 body {
     background-color: #1B4242;
 }
@@ -34,6 +35,17 @@ body {
 nav, 
 .nav-links {
     display: flex;
+}
+
+.arrow-image {
+    height: 40px;
+}
+
+#icon-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav {
@@ -64,6 +76,7 @@ a:hover {
     font-weight: bold;
     color: white;
 }
+
 
 /*Menu*/
 
@@ -172,12 +185,14 @@ section {
     margin-top: 55px;
     margin-left: 0;
     margin-right: 0;
+    background-image: url('./assets/Design.png');
+    background-repeat: no-repeat; 
+    background-position: center;
     background-color: #5C8374;
 }
 
 .rounded-image {
     border-radius: 20px;
-    overflow: hidden;
     margin-top: 5rem;
 }
 
@@ -258,16 +273,21 @@ section {
     justify-content: center;
     align-items: center;
     gap: 15rem;
-    height: 400px;    
+    height: 400px;
     width: auto;
     margin-left: 0;
     margin-right: 0;
 }
 
 .contact-text {
-    align-self: center;
     text-align: center;
-    font-size: 1.5rem;    
+    font-size: 1.5rem;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .icon-git,
@@ -283,14 +303,14 @@ section {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(20px);
+        transform: translateY(-20px);
     }
     100% {
         transform: translateY(0px);
     }
 }
 
-.git-button, 
+.git-button,
 .email-button {
     font-weight: 600;
     font-size: 1.5rem;
@@ -298,18 +318,22 @@ section {
     padding: 1.5rem;
     width: 18rem;
     border-radius: 1rem;
-    color: white; 
+    color: white;
     margin-left: 10px;
     background-color: #4CAF50;
     border: none;
     cursor: pointer;
 }
 
-.git-button:hover, 
+.git-button:hover,
 .email-button:hover {
     cursor: pointer;
     color: grey;
     background-color: white;
+}
+
+.git-button {
+    margin-right: 4rem;
 }
 
 /*Skills Section*/
@@ -381,7 +405,7 @@ section {
 
 #achievement {
     width: auto;
-    height: 500px;
+    height: 300px;
     margin-top: 55px;
     margin-left: 0;
     margin-right: 0;

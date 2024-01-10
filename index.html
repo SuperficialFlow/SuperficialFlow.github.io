@@ -10,18 +10,24 @@
     </head>
     <body>
         <nav id="desktop-nav">
-            <div class="logo">About<span style="color: #F6D776;">ME.</span></div>
+            <div id="icon-set">
+                <div class="logo">About<span style="color: #F6D776;">ME.</span></div>
+                <img src="./assets/arrow-icon.png" alt="Arrow" class="arrow-image"/>
+            </div>            
             <div>
                 <ul class="nav-links">
                     <li><a href="#contact">CONTACT</a></li>
                     <li><a href="#skills">SKILLS</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                    <li><a href="#achievement">ACHIEVEMENTS</a></li>
                 </ul>                
             </div>
         </nav>
         <nav id="mobile-nav">
-            <div class="logo">About<span style="color: #F6D776;">ME.</span></div>
+            <div id="icon-set">
+                <div class="logo">About<span style="color: #F6D776;">ME.</span></div>
+                <img src="./assets/arrow-icon.png" alt="Arrow" class="arrow-image"/>
+            </div> 
             <div class="mobile-menu">
                 <div class="menu-icon" onclick="toggleMenu()">
                     <span></span>
@@ -32,7 +38,7 @@
                     <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
                     <li><a href="#skills" onclick="toggleMenu()">SKILLS</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
-                    <li><a href="#achievements" onclick="toggleMenu()">ACHIEVEMENTS</a></li>
+                    <li><a href="#achievement" onclick="toggleMenu()">ACHIEVEMENTS</a></li>
                 </div>
             </div>
         </nav>
@@ -42,7 +48,12 @@
                 <p class="section-text-1"><span style="color: #F6D776;">HI, WELCOME</span></p>
                 <h1 class="section-title">I'm Jan Rea</h1>
                 <p class="section-text-2">B.S. Student of Information Technology that is currently <br> 
-                learning at Mapua Malayan Colleges of Laguna.</p>       
+                learning at Mapua Malayan Colleges of Laguna. 
+                <a href="#campus" onclick="window.open('https://mcl.edu.ph/')">
+                    <img src="./assets/link-icon.png" alt="Link Pic" class="link-image"/>
+                </a>
+            </p>    
+
                 <button class="contact-button" onclick="scrollToContact()">Contact Us</button>                                         
             </div>
             <div class="section-pic-container">
@@ -59,7 +70,10 @@
         </section>
         <!--Skills Section-->
         <section id="skills">
-            <h1 class="skill-title">My <span style="color: #F6D776;">Skills</span></h1>            
+            <h1 class="skill-title">
+                <img src="./assets/cog.png" class="cog-image"/>
+                My <span style="color: #F6D776;">Skills</span>
+            </h1>            
             <div class="skill-set-container">
                 <div class="skill-container">
                     <h1>1. Programming And <br> 
@@ -87,7 +101,10 @@
         </section>
         <!--Projects Section-->
         <section id="projects">
-            <h1 class="project-title">My <span style="color: #F6D776;">Projects</span></h1>
+            <h1 class="project-title">
+                <img src="./assets/book.png" class="book-image"/>
+                My <span style="color: #F6D776;">Projects</span>
+            </h1>
             <div class="project-set-container">
                 <div class="project-container">
                     <h1>1. ICY Heights</h1>
@@ -113,25 +130,32 @@
         </section>
         <!--Achievements Section-->
         <section id="achievement">
-            <h1 class="achievement-title">My <span style="color: #F6D776;">Achievements</span></h1>
+            <h1 class="achievement-title">
+                <img src="./assets/medal.png" class="medal-image"/>
+                My <span style="color: #F6D776;">Achievements</span>
+            </h1>
             <div class="achievement-set-container">
                 <div class="achievement-container">
                     <h1>Completion of Codechum</h1>
                 </div>
                 <div class="achievement-container">
-                    <h1>2nd Year Deans Lister <br> 
-                        - 1st Term</h1>
+                    <h1>2nd Year Deans Lister</h1>
                 </div>
             </div>
         </section>
         <!--Contact Section-->
         <section id="contact">
             <div class="contact-text">
-                <h1 class="contact-title">Contacts</h1>
-                <img src="./assets/git-icon.png" alt="Github Profile" class="icon-git"/>
-                <button class="git-button" onclick="window.open('https://github.com/SuperficialFlow')">Github</button>
-                <img src="./assets/email-icon.png" alt="Email Profile" class="icon-email"/>
-                <button class="email-button" onclick="window.open('mailto: 2022jgtrea@live.mcl.edu.ph')">Email</button>            
+                <h1 class="contact-title">
+                    <img src="./assets/phone.png" class="phone-image"/>
+                    Contacts :
+                </h1>
+                <div class="contact-container">
+                    <img src="./assets/git-icon.png" alt="Github Profile" class="icon-git"/>
+                    <button class="git-button" onclick="window.open('https://github.com/SuperficialFlow')">Github</button>
+                    <img src="./assets/email-icon.png" alt="Email Profile" class="icon-email"/>
+                    <button class="email-button" onclick="window.open('mailto: 2022jgtrea@live.mcl.edu.ph')">Email</button> 
+                </div>                           
             </div>
         </section>        
         <script src="script.js"></script>

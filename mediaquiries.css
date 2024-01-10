@@ -19,12 +19,20 @@
         padding: 10px;
     }
 
+    #profile {
+        background-size: contain;
+    }
+
     .nav-links {
         gap: 1rem;
     }
 
     .logo {
         font-size: 2rem;
+    }
+
+    .arrow-image {
+        height: 25px;
     }
 
     .menu-links li {
