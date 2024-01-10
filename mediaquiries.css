@@ -88,11 +88,321 @@
         width: 100%;
     }
 
-    .achievement-set-container {
-        margin-right: 17rem;
-    }
-
     .git-button, .email-button {
         padding: 25px 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: flex;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        margin-top: 1rem;
+        height: auto;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    #profile {
+        background-size: contain;
+    }
+
+    .nav-links {
+        gap: 1rem;
+    }
+
+    .logo {
+        font-size: 1.5rem; 
+    }
+
+    .arrow-image {
+        height: 20px; 
+    }
+
+    .menu-links li {
+        text-align: center;
+    }
+
+    .section {
+        margin: 0 0.5rem; 
+    }
+
+    #profile {
+        flex-direction: column;
+        gap: 1.5rem; 
+        height: auto;
+    }
+
+    .section-pic-container {
+        margin: 0;
+    }
+
+    .section-text {
+        text-align: center;
+        margin-top: 1.5rem; 
+    }
+
+    .section-title {
+        font-size: 2.5rem; 
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .rounded-image {
+        width: 250px; 
+        height: 350px; 
+        margin: 0 auto 4rem;
+        display: block;
+    }
+
+    .section-text-1 {
+        text-align: center;
+    }
+
+    .contact-button {
+        padding: 12px 30px;
+    }
+
+    .skill-title,
+    .project-title,
+    .achievement-title,
+    .contact-title {
+        margin: 15px; 
+        font-size: 2.5rem; 
+    }
+
+    .skill-container,
+    .project-container,
+    .achievement-container {
+        width: 100%;
+    }
+
+    .git-button,
+    .email-button {
+        padding: 10px 20px;
+        width: 180px;
+    }
+
+    .icon-git,
+    .icon-email {
+        margin-top: 20px;
+        animation: float 2000ms ease-in-out infinite;
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: flex;
+    }
+
+    nav {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .arrow-image {
+        height: 12px;
+    }
+
+    #mobile-nav {
+        display: flexbox;
+    }
+
+    .menu-links {
+        flex-direction: column;
+        width: 80px;
+        margin-top: 2px;
+    }
+
+    .menu-links a {
+        font-size: 10px;
+        padding: 1px;
+    }
+
+    .menu-icon.open span:first-child {
+        transform: rotate(45deg) translate(5.5px, 1px);
+    }
+    
+    .menu-icon.open span:last-child {
+        transform: rotate(-45deg) translate(5.5px, -1px);
+    }
+    
+    #profile {
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .rounded-image {
+        width: 160px;
+        height: 230px;
+        margin: 0 auto 2rem;
+    }
+
+    .section-text-1 {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .section-text-2 {
+        font-size: 0.4rem;
+    }
+
+    #AboutMe {
+        gap: 20px;
+        height: 40px;
+        margin-top: 50px;
+    }
+
+    .section-text-3 {
+        font-size: 0.9rem;
+    }
+
+    .section-text-4 {
+        font-size: 0.4rem;
+    }
+
+    .link-image {
+        height: 7px;
+    }
+
+    .contact-button {
+        padding: 6px 12px;
+        font-size: 0.5rem;
+    }
+    
+    .skill-title,
+    .project-title,
+    .achievement-title,
+    .contact-title {
+        margin: 20px;
+        font-size: 0.9rem;
+    }
+
+    .skill-container,
+    .project-container,
+    .achievement-container {
+        width: 300px;
+        height: 80px;
+        padding: 5px;
+        margin: 0;
+        font-size: 0.3rem;
+    }
+
+    .project-set-container,
+    .skill-set-container,
+    .achievement-set-container {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .git-button,
+    .email-button {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .mobile-menu {
+        margin-top: 0.5rem;
+    }
+
+    .menu-icon {
+        height: 10px;
+        width: 15px;
+    }
+
+    .menu-icon span {
+        width: 10px;
+        height: 1px;
+    }
+    .menu-links a {
+        font-size: 0.5rem;
+        padding: 1px;
+    }
+
+    #skills {
+        height: 300px;
+    }
+    
+    .cog-image {
+        height: 12px;
+    }
+
+    #projects {
+        margin-top: 2px;
+        height: 250px;
+    }
+
+    .book-image {
+        height: 13px;
+    }
+
+    #achievement {
+        height: 200px;
+    }
+
+    .medal-image {
+        height: 13px
+    }
+
+    .git-button, 
+    .email-button {
+        width: 5rem;
+        margin-left: 0;
+    }
+
+    #contact {
+        height: 200px;
+    }
+
+    .icon-git,
+    .icon-email {
+        margin-top: 20px;
+        animation: float 2000ms ease-in-out infinite;
+        margin-right: 10px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .phone-image {
+        height: 12px;
     }
 }
