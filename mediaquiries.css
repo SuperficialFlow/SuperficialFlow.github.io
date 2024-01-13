@@ -161,7 +161,7 @@
 
     .rounded-image {
         width: 250px; 
-        height: 350px; 
+        height: 300px; 
         margin: 0 auto 4rem;
         display: block;
     }
@@ -320,11 +320,19 @@
         padding: 5px;
         margin: 0;
         font-size: 0.3rem;
+        transition: transform 0.3s;
+    }
+
+    .skill-container:hover,
+    .achievement-container:hover,
+    .project-container:hover {
+        transform: scale(2);
     }
 
     .project-set-container,
     .skill-set-container,
     .achievement-set-container {
+        display: flex;
         flex-direction: row;
         gap: 0.5rem;
     }
