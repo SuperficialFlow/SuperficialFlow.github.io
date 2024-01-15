@@ -1,3 +1,18 @@
+@media (min-aspect-ratio:16/9) {
+    .bg-clip {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .bg-clip {
+        width: auto;
+        height: 100%;
+
+    }
+}
+
 @media screen and (max-width: 1500px) {
 
     #desktop-nav {
@@ -13,14 +28,13 @@
     }
 
     nav {
-        margin-top: 1rem;
         height: auto;
-        align-items: flex-start;
-        padding: 10px;
+        padding: 15px;
     }
 
     #profile {
         background-size: contain;
+        margin-top: 50px;
     }
 
     .nav-links {
@@ -68,27 +82,56 @@
         width: 300px;
         height: 420px;
         margin: 0 auto 6rem;
-        display: block
+        display: block;
+    }
+
+    .rounded-image-container {
+        width: 300px;
+        height: 420px;
+        margin: 0 auto 6rem;
+        display: block;
+    }
+
+    .video-overlay,
+    .image-display {
+        width: 300px;
+        height: 420px;
+        display: block;
+        margin: 0 auto 6rem;
     }
 
     .section-text-1 {
         text-align: center;
+        margin-top: 1px;
     }
     
     .contact-button {
         padding: 15px 40px;
     }
 
-    .skill-title, .project-title, .achievement-title, .contact-title {
-        margin: 20px;
+    .skill-title, 
+    .project-title, 
+    .contact-title {
+        margin-top: 10rem;
+        margin-right: 10px;
+        margin-left: 10px;
         font-size: 3rem;
     }
 
-    .skill-container, .project-container, .achievement-container {
+    .achievement-title {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 3rem;
+    }
+
+    .skill-container, 
+    .project-container, 
+    .achievement-container {
         width: 100%;
     }
 
-    .git-button, .email-button {
+    .git-button, 
+    .email-button {
         padding: 25px 40px;
     }
 }
@@ -108,9 +151,7 @@
     }
 
     nav {
-        margin-top: 1rem;
         height: auto;
-        align-items: flex-start;
         padding: 10px;
     }
 
@@ -166,6 +207,21 @@
         display: block;
     }
 
+    .rounded-image-container {
+        width: 250px;
+        height: 350px;
+        margin: 0 auto 6rem;
+        display: block;
+    }
+
+    .video-overlay,
+    .image-display {
+        width: 250px;
+        height: 350px;
+        display: block;
+        margin: 0 auto 6rem;
+    }
+
     .section-text-1 {
         text-align: center;
     }
@@ -174,25 +230,26 @@
         padding: 12px 30px;
     }
 
-    .skill-title,
-    .project-title,
-    .achievement-title,
+    .skill-title, 
+    .project-title, 
     .contact-title {
-        margin: 15px; 
-        font-size: 2.5rem; 
+        margin-top: 10rem;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 2.5rem;
     }
+
+    .achievement-title {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 2.5rem;
+    }
+
 
     .skill-container,
     .project-container,
     .achievement-container {
         width: 100%;
-        transition: transform 0.3s;
-    }
-
-    .skill-container:hover,
-    .achievement-container:hover,
-    .project-container:hover {
-        transform: scale(1);
     }
 
     .git-button,
@@ -204,7 +261,6 @@
     .icon-git,
     .icon-email {
         margin-top: 20px;
-        animation: float 2000ms ease-in-out infinite;
         height: 70px;
         width: 70px;
     }
@@ -225,9 +281,7 @@
     }
 
     nav {
-        margin-top: 1rem;
         height: auto;
-        align-items: flex-start;
         padding: 10px;
     }
 
@@ -278,6 +332,21 @@
         margin: 0 auto 2rem;
     }
 
+    .rounded-image-container {
+        width: 160px;
+        height: 230px;
+        margin: 0 auto 6rem;
+        display: block;
+    }
+
+    .video-overlay,
+    .image-display {
+        width: 160px;
+        height: 230px;
+        display: block;
+        margin: 0 auto 6rem;
+    }
+
     .section-text-1 {
         font-size: 0.9rem;
         margin-top: 1rem;
@@ -310,14 +379,22 @@
         padding: 6px 12px;
         font-size: 0.5rem;
     }
-    
-    .skill-title,
-    .project-title,
-    .achievement-title,
+
+    .skill-title, 
+    .project-title, 
     .contact-title {
-        margin: 20px;
+        margin-top: 4.5rem;
+        margin-right: 10px;
+        margin-left: 10px;
         font-size: 0.9rem;
     }
+
+    .achievement-title {
+        margin-right: 4.5px;
+        margin-left: 10px;
+        font-size: 0.9rem;
+    }
+
 
     .skill-container,
     .project-container,
@@ -327,13 +404,6 @@
         padding: 5px;
         margin: 0;
         font-size: 0.3rem;
-        transition: transform 0.3s;
-    }
-
-    .skill-container:hover,
-    .achievement-container:hover,
-    .project-container:hover {
-        transform: scale(1.5);
     }
 
     .project-set-container,
@@ -411,8 +481,6 @@
 
     .icon-git,
     .icon-email {
-        margin-top: 20px;
-        animation: float 2000ms ease-in-out infinite;
         margin-right: 10px;
         height: 30px;
         width: 30px;

@@ -9,6 +9,9 @@
         <link rel="stylesheet" href="mediaquiries.css" />
     </head>
     <body>
+        <video autoplay loop muted plays-inline class="bg-clip">
+            <source src="assets/black.mp4" type="video/mp4">
+        </video>
         <nav id="desktop-nav">
             <div id="icon-set">
                 <div class="logo">About<span style="color: #F6D776;">ME.</span></div>
@@ -43,7 +46,7 @@
             </div>
         </nav>
         <!--Profile Section-->
-        <section id="profile">            
+        <section id="profile" class="hidden">            
             <div class="section-text">
                 <p class="section-text-1"><span style="color: #F6D776;">HI, WELCOME</span></p>
                 <h1 class="section-title">I'm <span class="name">Jan Rea</span></h1>
@@ -56,12 +59,19 @@
 
                 <button class="contact-button" onclick="scrollToContact()">Contact Us</button>                                         
             </div>
-            <div class="section-pic-container">
-                <img src="./assets/prof-pic.png" alt="Prof Pic" class="rounded-image"/>                
+            <div class="rounded-image-container">
+                <div class="section-pic-container">
+                    <img src="./assets/prof-pic.png" alt="Prof Pic" class="rounded-image"/>                
+                </div>
+                <div class="video-overlay">
+                    <video autoplay loop muted plays-inline class="image-display">
+                        <source src="assets/prof.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
         </section>
         <!--AboutMe Section-->
-        <section id=AboutMe>
+        <section id=AboutMe class="hidden">
             <h1 class="section-text-3">ABOUT <span style="color: #F6D776;">MYSELF</span></h1>
             <p class="section-text-4">I developed an interest in BS-IT due to my passion and exposure <br> 
             to technology and how it integrates into my everyday life. <br> 
@@ -69,7 +79,7 @@
             gaming, listening to music, and problem-solving.</p>
         </section>
         <!--Skills Section-->
-        <section id="skills">
+        <section id="skills" class="hidden">
             <h1 class="skill-title">
                 <img src="./assets/cog.png" class="cog-image"/>
                 My <span style="color: #F6D776;">Skills</span>
@@ -100,7 +110,7 @@
             </div>       
         </section>
         <!--Projects Section-->
-        <section id="projects">
+        <section id="projects" class="hidden">
             <h1 class="project-title">
                 <img src="./assets/book.png" class="book-image"/>
                 My <span style="color: #F6D776;">Projects</span>
@@ -129,7 +139,7 @@
             </div>
         </section>
         <!--Achievements Section-->
-        <section id="achievement">
+        <section id="achievement" class="hidden">
             <h1 class="achievement-title">
                 <img src="./assets/medal.png" class="medal-image"/>
                 My <span style="color: #F6D776;">Achievements</span>
@@ -144,7 +154,7 @@
             </div>
         </section>
         <!--Contact Section-->
-        <section id="contact">
+        <section id="contact" class="hidden">
             <div class="contact-text">
                 <h1 class="contact-title">
                     <img src="./assets/phone.png" class="phone-image"/>
