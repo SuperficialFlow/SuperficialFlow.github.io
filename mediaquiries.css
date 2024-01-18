@@ -105,6 +105,12 @@
         margin-top: 1px;
     }
     
+    .edu-container {
+        width: 1000px;
+        height: 225px;
+        gap: 5rem;
+    }
+
     .contact-button {
         padding: 15px 40px;
     }
@@ -126,8 +132,10 @@
 
     .skill-container, 
     .project-container, 
-    .achievement-container {
+    .achievement-container
+    .edu-container {
         width: 100%;
+        border-radius: 1rem;
     }
 
     .git-button, 
@@ -248,7 +256,8 @@
 
     .skill-container,
     .project-container,
-    .achievement-container {
+    .achievement-container,
+    .edu-container {
         width: 100%;
     }
 
@@ -371,6 +380,29 @@
         font-size: 0.4rem;
     }
 
+    #Education {
+        margin-bottom: 10px;
+    }
+
+    .edu-image {
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .section-text-5 {
+        font-size: 0.9rem;
+    }
+
+    .section-text-6 {
+        font-size: 0.4rem;
+    }
+
+    .edu-container {
+        width: 500px;
+        height: 200px;
+        gap: 5rem;
+    }
+
     .link-image {
         height: 7px;
     }
@@ -394,7 +426,6 @@
         margin-left: 10px;
         font-size: 0.9rem;
     }
-
 
     .skill-container,
     .project-container,
